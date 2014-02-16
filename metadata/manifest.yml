@@ -1,13 +1,13 @@
 Name: httpd
 Cartridge-Short-Name: HTTPD
-Cartridge-Version: '0.0.1'
-Cartridge-Vendor: mmcgrathinc
 Display-Name: HTTPD Cartridge
 Source-Url: https://github.com/seleshmaster/openshift-httpd-cartridge-broken.git
 Description: "A httpd cartridge for development use only."
 Version: '0.1'
 License: "None"
 Vendor: Custom Cartridges INC
+Cartridge-Version: 0.0.1
+Cartridge-Vendor: customcarts
 Categories:
   - service
   - web_framework

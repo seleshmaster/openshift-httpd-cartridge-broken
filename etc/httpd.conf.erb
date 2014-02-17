@@ -196,7 +196,7 @@ LoadModule proxy_ajp_module modules/mod_proxy_ajp.so
 LoadModule proxy_connect_module modules/mod_proxy_connect.so
 LoadModule cache_module modules/mod_cache.so
 LoadModule suexec_module modules/mod_suexec.so
-#LoadModule disk_cache_module modules/mod_disk_cache.so
+LoadModule disk_cache_module modules/mod_cache_disk.so
 LoadModule cgi_module modules/mod_cgi.so
 LoadModule version_module modules/mod_version.so
 
@@ -218,7 +218,7 @@ LoadModule version_module modules/mod_version.so
 #
 # Load config files from the config directory "/etc/httpd/conf.d".
 #
-#Include conf.d/*.conf
+Include conf.d/*.conf
 
 #
 # ExtendedStatus controls whether Apache will generate "full" status
